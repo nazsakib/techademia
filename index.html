@@ -14,10 +14,12 @@
     <body>
         <!-- header area -->
         <header
-            class="header bg-area bg-[url('/assets/images/hero-banner.png')] min-h-screen bg-center bg-no-repeat bg-cover"
+            class="relative header bg-area bg-[url('/assets/images/hero-banner.png')] min-h-screen bg-center bg-no-repeat bg-cover"
         >
+            <!-- Dark Overlay -->
+            <div class="absolute inset-0 bg-black opacity-50"></div>
             <!-- container -->
-            <div class="container mx-auto">
+            <div class="relative container mx-auto">
                 <!-- main header area -->
                 <div class="main-area py-5">
                     <!-- navigation area -->
@@ -33,7 +35,7 @@
                         <!-- navigation menu area -->
                         <div class="nav-area__menu">
                             <ul
-                                class="flex items-center gap-x-5 text-lg font-bold"
+                                class="flex items-center gap-x-5 text-lg font-bold text-white"
                             >
                                 <li>
                                     <a
@@ -70,7 +72,9 @@
                             class="nav-area__signup flex items-center justify-between gap-x-5"
                         >
                             <div class="signup__login">
-                                <a class="hover:text-[#FF6551]" href="#"
+                                <a
+                                    class="text-white hover:text-[#FF6551]"
+                                    href="#"
                                     >Login</a
                                 >
                             </div>
@@ -88,18 +92,30 @@
                         </div>
                     </div>
                     <div class="cta-area">
-                        <div class="row mt-[25%] ml-[40%]">
-                            <h5>Join us</h5>
-                            <h1>Hight quality courses</h1>
-                            <h6>
+                        <div
+                            class="row mt-[20%] ml-[8%] flex flex-col justify-center items-center"
+                        >
+                            <h5
+                                class="py-5 text-[#F3CD03] font-extrabold capitalize text-center"
+                            >
+                                Join us
+                            </h5>
+                            <h1
+                                class="leading-[1em] py-5 text-center text-[70px] text-white font-semibold uppercase"
+                            >
+                                High quality<br />courses
+                            </h1>
+                            <h6 class="py-5 text-white text-[20px]">
                                 Our goal is make online education work for
                                 everyone .
                             </h6>
-                            <button
-                                class="flex items-center justify-center py-3 px-8 rounded-sm text-white font-bold hover:bg-[#FFC652] duration-200 bg-[#FF6551]"
-                            >
-                                Join Us
-                            </button>
+                            <div class="btn-area py-5">
+                                <button
+                                    class="flex items-center justify-center py-3 px-8 rounded-sm text-white font-bold hover:bg-[#FFC652] duration-200 bg-[#FF6551] w-32"
+                                >
+                                    Join Us
+                                </button>
+                            </div>
                         </div>
                     </div>
                 </div>
