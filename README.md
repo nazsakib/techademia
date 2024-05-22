@@ -31,6 +31,7 @@ The "Techademia" template is a clean and modern design aimed at educational inst
 
 ## Project Structure
 
+```
 techademia/
 ├── index.html
 ├── src/
@@ -43,7 +44,7 @@ techademia/
 │ └── images/
 ├── package.json
 └── tailwind.config.js
-
+```
 
 - `index.html`: The main HTML file.
 - `assets/css/tailwind.css`: The main CSS file using TailwindCSS.
@@ -57,7 +58,3 @@ techademia/
 Distributed under the MIT License. See `LICENSE` for more information.
 
 ---
-
-Feel free to reach out if you have any questions or need further assistance!
-
-Happy Coding!
