@@ -34,14 +34,13 @@ The "Techademia" template is a clean and modern design aimed at educational inst
 ```
 techademia/
 ├── index.html
-├── src/
+├── assets/
 │ ├── css/
 │ │ └── styles.css
+│ ├── fonts/
+│ ├── images/
 │ ├── js/
 │ │ └── main.js
-├── public/
-│ └── assets/
-│ └── images/
 ├── package.json
 └── tailwind.config.js
 ```
