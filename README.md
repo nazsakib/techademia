@@ -27,7 +27,7 @@ The "Techademia" template is a clean and modern design aimed at educational inst
 - **HTML**: Markup language for creating the website structure.
 - **TailwindCSS**: A utility-first CSS framework for styling.
 - **JavaScript**: For interactive elements and functionality.
-- **Figma**: From Figma community.
+- **Figma**: From Figma community. [See Here](https://www.figma.com/design/rTr9mX6bX8Zv30dfzV7nST/School-Heart---html-and%C2%A0css-template%C2%A0with-source-code%C2%A0free%C2%A0download-for-school-(Community)?node-id=2415-26437&t=UzYqGjgddLldwRLN-0)
 
 ## Project Structure
 
