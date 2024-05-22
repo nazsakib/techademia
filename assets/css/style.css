@@ -1,0 +1,33 @@
+/* overlap area design */
+
+.overlap {
+    padding: 50px;
+    width: 32%;
+    margin: auto;
+    display: block;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 3px 1px 10px 1px rgb(39, 33, 33);
+    z-index: 9999;
+}
+
+.overlap-area .overlap__icon img {
+    padding: 14px;
+    background-color: #B6D7FF;
+    border-radius: 5px;
+}
+
+.overlap-area .overlap__heading {
+    padding: 15px 0;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.overlap-area .overlap__description {
+    padding: 8px 0;
+}
+
+.overlap-area .instruction {
+    background-color: #FF6551;
+    color: #fff;
+}

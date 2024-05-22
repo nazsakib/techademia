@@ -7,6 +7,7 @@
         <!-- Stylesheet -->
 
         <link rel="stylesheet" href="assets/css/tailwind.css" />
+        <link rel="stylesheet" href="assets/css/style.css" />
 
         <!-- Title -->
         <title>Document</title>
@@ -14,7 +15,7 @@
     <body>
         <!-- header area -->
         <header
-            class="relative header bg-area bg-[url('/assets/images/hero-banner.png')] min-h-screen bg-center bg-no-repeat bg-cover"
+            class="header bg-area bg-[url('/assets/images/hero-banner.png')] min-h-screen bg-center bg-no-repeat bg-cover"
         >
             <!-- Dark Overlay -->
             <div class="absolute inset-0 bg-black opacity-50"></div>
@@ -111,7 +112,7 @@
                             </h6>
                             <div class="btn-area py-5 flex flex-col">
                                 <button
-                                    class="py-3 px-8 rounded-sm text-white font-bold hover:bg-[#FFC652] duration-200 bg-[#FF6551]"
+                                    class="capitalize py-3 px-8 rounded-sm text-white font-bold hover:bg-[#FFC652] duration-200 bg-[#FF6551]"
                                 >
                                     Browse courses
                                 </button>
@@ -121,7 +122,70 @@
                 </div>
             </div>
         </header>
-        <main></main>
+        <!-- main area -->
+        <main>
+            <!-- overlap section -->
+            <section class="overlap-section mt-[-150px]">
+                <div class="container mx-auto">
+                    <div class="overlap-area flex items-center justify-between">
+                        <!-- 1st box -->
+                        <div class="overlap lifetime">
+                            <div class="overlap__icon">
+                                <img
+                                    src="/assets/images/overlap-lifetime.svg"
+                                    alt=""
+                                />
+                            </div>
+                            <div class="overlap__heading">
+                                <h3>Lifetime access</h3>
+                            </div>
+                            <div class="overlap__description">
+                                <p>
+                                    The gradual accumulation of information
+                                    about atomic and small-scale behaviour...
+                                </p>
+                            </div>
+                        </div>
+                        <!-- 2nd box -->
+                        <div class="overlap courses">
+                            <div class="overlap__icon">
+                                <img
+                                    src="/assets/images/overlap-courses.svg"
+                                    alt=""
+                                />
+                            </div>
+                            <div class="overlap__heading">
+                                <h3>Training courses</h3>
+                            </div>
+                            <div class="overlap__description">
+                                <p>
+                                    The gradual accumulation of information
+                                    about atomic and small-scale behaviour...
+                                </p>
+                            </div>
+                        </div>
+                        <!-- 3rd box -->
+                        <div class="overlap instruction">
+                            <div class="overlap__icon">
+                                <img
+                                    src="/assets/images/overlap-instruction.svg"
+                                    alt=""
+                                />
+                            </div>
+                            <div class="overlap__heading">
+                                <h3>Expert Instructions</h3>
+                            </div>
+                            <div class="overlap__description">
+                                <p>
+                                    The gradual accumulation of information
+                                    about atomic and small-scale behaviour...
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
         <footer></footer>
 
         <!-- ionicons -->
