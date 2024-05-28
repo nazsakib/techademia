@@ -6,8 +6,8 @@
 
         <!-- Stylesheet -->
 
-        <link rel="stylesheet" href="assets/css/tailwind.css" />
-        <link rel="stylesheet" href="assets/css/style.css" />
+        <link rel="stylesheet" href="/assets/css/tailwind.css" />
+        <link rel="stylesheet" href="/assets/css/style.css" />
         <script
             src="https://kit.fontawesome.com/697c0af9d0.js"
             crossorigin="anonymous"
@@ -321,11 +321,34 @@
                     <div class="quality-education__courses">
                         <div class="row flex items-center gap-2">
                             <div class="quality-education__course">
-                                <img
-                                    class=""
-                                    src="assets/images/course one.png"
-                                    alt=""
-                                />
+                                <div
+                                    class="quality-education__course-image relative"
+                                >
+                                    <img
+                                        src="assets/images/course one.png"
+                                        alt=""
+                                        class="relative"
+                                    />
+                                    <div
+                                        class="course-image__social-icons absolute bottom-5 left-[25%] flex items-center gap-2 hidden opacity-0"
+                                    >
+                                        <div
+                                            class="social-icons__heart bg-white rounded-full px-2 py-1"
+                                        >
+                                            <i class="fa fa-heart"></i>
+                                        </div>
+                                        <div
+                                            class="social-icons__cart bg-white rounded-full px-2 py-1"
+                                        >
+                                            <i class="fa fa-cart-plus"></i>
+                                        </div>
+                                        <div
+                                            class="social-icons__eye bg-white rounded-full px-2 py-1"
+                                        >
+                                            <i class="fa fa-eye"></i>
+                                        </div>
+                                    </div>
+                                </div>
                                 <div
                                     class="quality-education__course-info flex items-center justify-center gap-4"
                                 >
@@ -434,5 +457,6 @@
             nomodule
             src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
         ></script>
+        <script src="/assets/js/app.js"></script>
     </body>
 </html>
